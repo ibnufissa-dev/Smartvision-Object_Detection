@@ -49,3 +49,11 @@ The trained best.pt model was tested using the laptop webcam and successfully de
 
 ```bash
 yolo predict model=best.pt source=0 show=True
+## FastAPI Deployment
+
+The trained model is deployed using FastAPI.
+
+Run the API with:
+
+```bash
+uvicorn api:app --reload
