@@ -3,3 +3,14 @@ __pycache__/
 runs/
 *.pyc
 *.pt
+dataset_raw/
+datasets/
+roboflow_check/
+train/
+*.zip
+
+# Ignore pretrained weight files
+*.pt
+
+# Tapi simpan custom model hasil training kita
+!best.pt

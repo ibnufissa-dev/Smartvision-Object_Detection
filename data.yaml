@@ -1,0 +1,13 @@
+train: dataset/train/images
+val: dataset/valid/images
+test: dataset/test/images
+
+nc: 1
+names: ['Bottle']
+
+roboflow:
+  workspace: ibnu-eqfl2
+  project: smartvission-bottle-detection
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/ibnu-eqfl2/smartvission-bottle-detection/dataset/1
